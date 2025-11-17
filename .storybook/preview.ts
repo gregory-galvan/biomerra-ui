@@ -1,7 +1,6 @@
 import type { Preview } from "@storybook/react";
 import React from "react";
-// import { BiomeProvider } from "@biomerra-ui/react/theme/BiomeProvider";
-import { BiomeProvider } from "@biomerra-ui/react"; // Adjust the path if BiomeProvider is exported from the main entry
+import { BiomeProvider } from "@react";
 
 const preview: Preview = {
   decorators: [
