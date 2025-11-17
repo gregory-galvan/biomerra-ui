@@ -1,0 +1,24 @@
+{
+  "name": "@biomerra-ui/react",
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/biomerra-react.cjs.js",
+  "module": "dist/biomerra-react.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
+  },
+  "dependencies": {
+    "@biomerra-ui/tokens": "0.1.0"
+  },
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.0.0"
+  }
+}
