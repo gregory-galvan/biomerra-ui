@@ -23,10 +23,14 @@ export type BiomeTokens = {
     pill: string;
   };
   spacing: {
-    xs: string;
-    sm: string;
-    md: string;
-    lg: string;
+    x1: string;
+    x2: string;
+    x3: string;
+    x4: string;
+    x5: string;
+    x6: string;
+    x7: string;
+    x8: string;
   };
 };
 
@@ -41,20 +45,24 @@ export const biomes: Record<BiomeName, BiomeTokens> = {
       text: "#F3F7F4",
       textMuted: "#9BAAA3",
       border: "#1C2822",
-      accent: "#B5743A"
+      accent: "#B5743A",
     },
     radius: {
-      sm: "4px",
-      md: "8px",
-      lg: "16px",
-      pill: "999px"
+      sm: "calc(0.25rem * 1)",
+      md: "calc(0.25rem * 2)",
+      lg: "calc(0.25rem * 3)",
+      pill: "999px",
     },
     spacing: {
-      xs: "4px",
-      sm: "8px",
-      md: "12px",
-      lg: "16px"
-    }
+      x1: "calc(0.125rem * 1)",
+      x2: "calc(0.125rem * 2)",
+      x3: "calc(0.125rem * 3)",
+      x4: "calc(0.125rem * 4)",
+      x5: "calc(0.125rem * 5)",
+      x6: "calc(0.125rem * 6)",
+      x7: "calc(0.125rem * 7)",
+      x8: "calc(0.125rem * 8)",
+    },
   },
 
   "deep-ocean": {
@@ -67,20 +75,24 @@ export const biomes: Record<BiomeName, BiomeTokens> = {
       text: "#F3F6FA",
       textMuted: "#9BA7B8",
       border: "#1A2836",
-      accent: "#57C0D8"
+      accent: "#57C0D8",
     },
     radius: {
-      sm: "4px",
-      md: "8px",
-      lg: "16px",
-      pill: "999px"
+      sm: "calc(0.25rem * 1)",
+      md: "calc(0.25rem * 2)",
+      lg: "calc(0.25rem * 3)",
+      pill: "999px",
     },
     spacing: {
-      xs: "4px",
-      sm: "8px",
-      md: "12px",
-      lg: "16px"
-    }
+      x1: "calc(0.125rem * 1)",
+      x2: "calc(0.125rem * 2)",
+      x3: "calc(0.125rem * 3)",
+      x4: "calc(0.125rem * 4)",
+      x5: "calc(0.125rem * 5)",
+      x6: "calc(0.125rem * 6)",
+      x7: "calc(0.125rem * 7)",
+      x8: "calc(0.125rem * 8)",
+    },
   },
 
   "desert-sands": {
@@ -93,20 +105,24 @@ export const biomes: Record<BiomeName, BiomeTokens> = {
       text: "#FAF3E6",
       textMuted: "#B9AA93",
       border: "#3A2613",
-      accent: "#E3A85E"
+      accent: "#E3A85E",
     },
     radius: {
-      sm: "4px",
-      md: "8px",
-      lg: "16px",
-      pill: "999px"
+      sm: "calc(0.25rem * 1)",
+      md: "calc(0.25rem * 2)",
+      lg: "calc(0.25rem * 3)",
+      pill: "999px",
     },
     spacing: {
-      xs: "4px",
-      sm: "8px",
-      md: "12px",
-      lg: "16px"
-    }
+      x1: "calc(0.125rem * 1)",
+      x2: "calc(0.125rem * 2)",
+      x3: "calc(0.125rem * 3)",
+      x4: "calc(0.125rem * 4)",
+      x5: "calc(0.125rem * 5)",
+      x6: "calc(0.125rem * 6)",
+      x7: "calc(0.125rem * 7)",
+      x8: "calc(0.125rem * 8)",
+    },
   },
 
   "sunset-canyon": {
@@ -119,19 +135,23 @@ export const biomes: Record<BiomeName, BiomeTokens> = {
       text: "#FCEBF1",
       textMuted: "#C19AA9",
       border: "#3F1A2A",
-      accent: "#F59654"
+      accent: "#F59654",
     },
     radius: {
-      sm: "4px",
-      md: "8px",
-      lg: "16px",
-      pill: "999px"
+      sm: "calc(0.25rem * 1)",
+      md: "calc(0.25rem * 2)",
+      lg: "calc(0.25rem * 3)",
+      pill: "999px",
     },
     spacing: {
-      xs: "4px",
-      sm: "8px",
-      md: "12px",
-      lg: "16px"
-    }
-  }
+      x1: "calc(0.125rem * 1)",
+      x2: "calc(0.125rem * 2)",
+      x3: "calc(0.125rem * 3)",
+      x4: "calc(0.125rem * 4)",
+      x5: "calc(0.125rem * 5)",
+      x6: "calc(0.125rem * 6)",
+      x7: "calc(0.125rem * 7)",
+      x8: "calc(0.125rem * 8)",
+    },
+  },
 };

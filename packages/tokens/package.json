@@ -2,10 +2,19 @@
   "name": "@biomerra-ui/tokens",
   "version": "0.1.0",
   "private": false,
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./*": "./dist/*"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
