@@ -4,8 +4,18 @@
   "private": false,
   "main": "dist/biomerra-react.cjs.js",
   "module": "dist/biomerra-react.es.js",
-  "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/biomerra-react.es.js",
+      "require": "./dist/biomerra-react.cjs.js"
+    },
+    "./*": "./dist/*"
+  },
+  "sideEffects": false,
   "scripts": {
     "build": "vite build"
   },
@@ -19,6 +29,7 @@
   "devDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vite-plugin-dts": "^4.5.4"
   }
 }
